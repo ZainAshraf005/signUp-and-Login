@@ -7,7 +7,7 @@ import { useRouter } from "next/navigation";
 import React, { useEffect } from "react";
 import {toast,Toaster} from "react-hot-toast";
 
-export default function signUp() {
+export default function SignUp() {
   const notify = () => toast.success("user created successfully");
 
   const router = useRouter();
